@@ -18,3 +18,6 @@ git pull origin <master>--> To Download changes from remote repo to local machin
 git remote -v --> To see any remote repositories connected to this repo
 git diff <branch_name> --> Showing differencies between that branch and current branch 
 git merge <branch_name> --> Merging current and selected branches
+git reset <file_name> --> Unstaging the file (Deleting from index, opposite of add)
+git push origin :<branch_name> --> Removing branch remotely
+git log --> To see all your changes and commits
