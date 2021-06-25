@@ -20,4 +20,5 @@ git diff <branch_name> --> Showing differencies between that branch and current 
 git merge <branch_name> --> Merging current and selected branches
 git reset <file_name> --> Unstaging the file (Deleting from index, opposite of add)
 git push origin :<branch_name> --> Removing branch remotely
-git log --> To see all your changes and commits
+git log --> Showing logs
+git reset HEAD~<x> --> Reseting last x commits
